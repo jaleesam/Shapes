@@ -1,25 +1,41 @@
-#square{
+#square {
     height: 100px;
     width: 100px;
     background-color: olive;
 }
 
-#rectangle{
+#rectangle {
     height: 100px;
     width: 175px;
     background-color: paleturquoise;
 }
 
-#circle{
+#circle {
     height: 100px;
     width: 100px;
     background-color:purple;
     border-radius: 50%;
 }
 
-#oval{
+#oval {
     height: 100px;
     width: 175px;
     background-color: slateblue;
     border-radius: 50%;
+}
+
+#triangle {
+    width: 0;
+    height: 0;
+    border-bottom: 100px solid sandybrown;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+}
+
+#triangle_down {
+    width: 0;
+    height: 0;
+    border-top: 100px solid paleturquoise;
+    border-right: 60px solid transparent;
+    border-left: 60px solid transparent;
 }
