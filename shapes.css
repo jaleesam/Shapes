@@ -28,14 +28,30 @@
     width: 0;
     height: 0;
     border-bottom: 100px solid sandybrown;
-    border-left: 60px solid transparent;
     border-right: 60px solid transparent;
+    border-left: 60px solid transparent;
 }
 
 #triangle_down {
     width: 0;
     height: 0;
-    border-top: 100px solid paleturquoise;
+    border-top: 100px solid rgb(51, 35, 73);
     border-right: 60px solid transparent;
     border-left: 60px solid transparent;
+}
+
+#triangle_left {
+    width: 0;
+    height: 0;
+    border-top: 60px solid transparent;
+    border-right: 100px solid forestgreen;
+    border-bottom: 60px solid transparent;
+}
+
+#triangle_right {
+    width: 0;
+    height: 0;
+    border-top: 60px solid transparent;
+    border-bottom: 60px solid transparent;
+    border-left: 100px solid peru;
 }
